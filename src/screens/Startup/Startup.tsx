@@ -4,7 +4,6 @@ import { useQuery } from '@tanstack/react-query';
 import { useTranslation } from 'react-i18next';
 
 import { useTheme } from '@/theme';
-import { Brand } from '@/components/molecules';
 import { SafeScreen } from '@/components/template';
 
 import type { ApplicationScreenProps } from '@/types/navigation';
@@ -23,7 +22,7 @@ function Startup({ navigation }: ApplicationScreenProps) {
 	useEffect(() => {
 		navigation.reset({
 			index: 0,
-			routes: [{ name: 'Example' }],
+			routes: [{ name: 'Start' }],
 		});
 	}, [isSuccess]);
 
@@ -37,7 +36,6 @@ function Startup({ navigation }: ApplicationScreenProps) {
 					layout.justifyCenter,
 				]}
 			>
-				<Brand />
 				{isFetching && (
 					<ActivityIndicator size="large" style={[gutters.marginVertical_24]} />
 				)}

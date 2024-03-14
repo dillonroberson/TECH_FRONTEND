@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1684281960/Boilerplate.react-native-mmkv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1684281960/Boilerplate.react-native-mmkv.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1639904931/Boilerplate.react-native-reanimated.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1639904931/Boilerplate.react-native-reanimated.main.iml" />
+    </modules>
+  </component>
+</project>
